@@ -1,0 +1,40 @@
+body{
+    background-image: url(../img/sobrenos.png);
+}
+.sobre{
+    margin-left: 120px;
+    margin-top: 90px;
+    font-family: 'fontebotao';
+    letter-spacing: 5px;
+    color: #5f4990;
+    font-size: 50px;
+}
+
+@font-face {
+    font-family:'fontebotao' ;
+    src: url(../Fonts/HeadlinerNo.45\ DEMO.ttf);
+
+    }
+    .texto{
+        margin-left: 150px;
+        max-width: 450px;
+        font-size: 25px;
+        text-align: center;
+        color: gray;
+    }
+    .botao{
+        background-color: #5f4990;
+        color: white;
+        border-radius: 15px;
+        text-decoration: none;
+        padding: 15px;
+        margin-top: 600px;
+        display: table;
+        margin: 0 auto ;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .botao:hover{
+        background-color: white;
+        color:#5f4990 ;
+
+    }

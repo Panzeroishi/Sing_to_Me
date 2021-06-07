@@ -1,0 +1,43 @@
+    *{
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+    }
+    
+    
+    body{
+        background-image: url(..//img/fale-conosco.png);
+    }
+    #fale{
+        float: right;
+        margin-right: 120px;
+        margin-top: 60px;
+        font-family: 'fontebotao';
+        letter-spacing: 2px;
+        font-size: 68px;
+        color: #c15269;
+    }
+
+    @font-face {
+        font-family:'fontebotao' ;
+        src: url(../Fonts/HeadlinerNo.45\ DEMO.ttf);
+
+        }
+      .logos{
+        float: right;
+        margin-top: 250px;
+        margin-right: -250px;
+        display: flex;
+    }
+    div img{
+        width: 45px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .voltar{
+        float: right;
+        margin-top: 550px;
+    }
+    .voltar a img{
+        width: 190px;
+    }
